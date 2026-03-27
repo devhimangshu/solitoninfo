@@ -1,1 +1,1 @@
-# solitoninfo
+# FLASH-LIKE-API

@@ -349,7 +349,7 @@ def handle_requests():
             "LikesGivenByAPI": like_given,
             "LikesafterCommand": after_like,
             "LikesbeforeCommand": before_like,
-            "PlayerNickname": player_name,
+            "PlayerNickname": name,
             "UID": player_id,
             "status": status,
             "remains": f"({remains}/{KEY_LIMIT})",
