@@ -80,7 +80,7 @@ async def generate_jwt_token(uid, password):
     """Generate JWT token"""
     try:
         encoded_password = urllib.parse.quote(password)
-        url = f"https://flash-jwt.vercel.app/token?uid={uid}&password={encoded_password}"
+        url = f"https://raihan-jwt.vercel.app/token?uid={uid}&password={encoded_password}"
         
         async with aiohttp.ClientSession() as session:
             async with session.get(url, timeout=15) as response:
